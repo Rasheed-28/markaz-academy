@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Courses & Academic Tracks | Markaz Academy</title>
+  <meta name="description" content="Explore computer science, advanced mathematics, physics, and exam prep courses at Markaz Academy.">
+  <link rel="icon" type="image/png" href="assets/logo.png">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-bar">
+    <div class="container">
+      <div class="top-bar-notice">
+        <span class="notice-pill">NEW COHORT</span>
+        <span>Spring & Summer 2026 Admissions Now Open for STEM & Coding Tracks!</span>
+      </div>
+      <div class="top-bar-contact">
+        <span>📍 Main Campus: Chakwal</span>
+        <span>📞 +92 3113006910</span>
+        <span>✉️ info@markaz.academy</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Primary Navigation -->
+  <header class="navbar">
+    <div class="container">
+      <a href="index.html" class="nav-brand" aria-label="Markaz Academy Home">
+        <img src="assets/logo_brand-name.png" alt="Markaz Academy - Learn Practice Excel">
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="courses.html" class="nav-link active">Courses</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="courses section-padding">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge-tag gold">Comprehensive Catalog</span>
+          <h1 class="section-title">Our Learning Programs</h1>
+          <p class="section-subtitle">Explore our three core specializations designed to build strong foundations, practical skills, and exam confidence.</p>
+        </div>
+
+        <!-- Filter Controls -->
+        <div class="course-filter-wrap">
+          <button class="filter-btn active" data-filter="all">All Programs</button>
+          <button class="filter-btn" data-filter="cs">Computing & Web</button>
+          <button class="filter-btn" data-filter="math">Mathematics</button>
+          <button class="filter-btn" data-filter="exam">Competitive Exams</button>
+        </div>
+
+        <!-- Courses Grid -->
+        <div class="courses-grid">
+          <!-- Specialization 1: Basic Computing and Web Development -->
+          <div class="course-card" data-category="cs">
+            <div class="course-card-image">
+              <img src="assets/computing-web.jpg" alt="Basic Computing and Web Development">
+            </div>
+            <div class="course-card-top">
+              <span class="course-category-tag tag-cs">Coding & Web</span>
+              <h3 class="course-title">Basic Computing & Web Development</h3>
+              <p class="course-tagline">Build Real Websites & Master Digital Skills from Day One</p>
+              <p class="course-desc">Designed for beginners with no prior coding experience. Learn essential computer skills, typing, logical problem solving, and create modern interactive websites with HTML, CSS, and JavaScript.</p>
+            </div>
+            <div class="course-meta">
+              <span class="meta-item">⏱ <strong>Duration:</strong> 12 Weeks (Flexible Batches)</span>
+            </div>
+            <div class="course-card-footer">
+              <div class="course-fee">Beginner <span>Friendly</span></div>
+              <a href="index.html#consultation" class="btn btn-primary" style="padding: 0.45rem 1rem; font-size: 0.85rem;">Enroll Now</a>
+            </div>
+          </div>
+
+          <!-- Specialization 2: Applied and Pure Mathematics -->
+          <div class="course-card" data-category="math">
+            <div class="course-card-image">
+              <img src="assets/applied-math.jpg" alt="Applied and Pure Mathematics">
+            </div>
+            <div class="course-card-top">
+              <span class="course-category-tag tag-math">Mathematics & Logic</span>
+              <h3 class="course-title">Applied & Pure Mathematics</h3>
+              <p class="course-tagline">Develop Strong Analytical Thinking & Problem-Solving Power</p>
+              <p class="course-desc">Connect classroom math to real-world understanding. Master mental math, algebra, geometry, and calculus through visual explanations, intuition, and guided problem solving without memorization.</p>
+            </div>
+            <div class="course-meta">
+              <span class="meta-item">⏱ <strong>Duration:</strong> 14 Weeks (All Grade Levels)</span>
+            </div>
+            <div class="course-card-footer">
+              <div class="course-fee">Foundation <span>to Advanced</span></div>
+              <a href="index.html#consultation" class="btn btn-primary" style="padding: 0.45rem 1rem; font-size: 0.85rem;">Enroll Now</a>
+            </div>
+          </div>
+
+          <!-- Specialization 3: Competitive Exams Preparation -->
+          <div class="course-card" data-category="exam">
+            <div class="course-card-image">
+              <img src="assets/exam-prep.jpg" alt="Competitive Exams Preparation">
+            </div>
+            <div class="course-card-top">
+              <span class="course-category-tag tag-prep">Exam Excellence</span>
+              <h3 class="course-title">Competitive Exams Preparation</h3>
+              <p class="course-tagline">Achieve Top Grades & Confidently Excel in High-Stakes Tests</p>
+              <p class="course-desc">Structured, high-impact preparation for Cambridge O/A-Levels, Board Exams, Entry Tests, and Olympiads. Includes proven test-taking methods, extensive past-paper drills, and mock exams.</p>
+            </div>
+            <div class="course-meta">
+              <span class="meta-item">⏱ <strong>Duration:</strong> 10 to 16 Weeks (Intensive Sessions)</span>
+            </div>
+            <div class="course-card-footer">
+              <div class="course-fee">Exam <span>Focused</span></div>
+              <a href="index.html#consultation" class="btn btn-primary" style="padding: 0.45rem 1rem; font-size: 0.85rem;">Enroll Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="assets/logo_brand-name.png" alt="Markaz Academy">
+          <p>Markaz Academy is a premier STEM and academic institution committed to the principles of <strong>Learn • Practice • Excel</strong>.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="courses.html">Courses</a>
+            <a href="index.html#methodology">Our Methodology</a>
+            <a href="index.html#features">Why Markaz</a>
+            <a href="index.html#faq">Frequently Asked Questions</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Programs</h4>
+          <div class="footer-links">
+            <a href="courses.html">Computer Science</a>
+            <a href="courses.html">Applied Math</a>
+            <a href="courses.html">Robotics & STEM</a>
+            <a href="courses.html">Exam Prep</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul class="footer-contact-info">
+            <li><span>📍</span> Education City, Main Blvd</li>
+            <li><span>📞</span> +92 (300) 123-4567</li>
+            <li><span>✉️</span> info@markaz.academy</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>&copy; 2026 Markaz Academy. All rights reserved.</div>
+        <div>Learn • Practice • Excel</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
